@@ -23,7 +23,15 @@ function wpzoom_fbp_register_block_patterns() {
                 'free/featured/hero3',
                 'free/featured/newsletter',
                 'free/featured/instagram',
+                'free/featured/book',
                 'free/featured/about',
+                'free/featured/cover',
+                'free/featured/navigate',
+                'free/featured/search',
+                'free/featured/search2',
+                'free/featured/loop',
+                'free/featured/loop2',
+                'free/featured/loop3',
             );
 
         $block_patterns = apply_filters( 'wpzoom_block_patterns', $block_patterns );

@@ -17,11 +17,46 @@
 require_once 'register-patterns.php';
 
 
-function wpzoom_register_scripts() {
+function wpzfbp_register_scripts() {
     $plugin_url = plugin_dir_url( __FILE__ );
 
+    wp_enqueue_script( 'wpzfbp_utils',  $plugin_url . "assets/js/utils.js", array( 'jquery' ), '1.0', true );
     wp_enqueue_style( 'style',  $plugin_url . "assets/css/style.css");
+
 }
 
-add_action( 'wp_enqueue_scripts', 'wpzoom_register_scripts' );
+add_action( 'wp_enqueue_scripts', 'wpzfbp_register_scripts' );
 // add_action( 'admin_print_styles', 'wpzoom_register_scripts' );
+
+
+
+add_editor_style( array( plugin_dir_path( __FILE__ ) . 'assets/css/style.css' ) );
+
+
+
+
+/**
+ * Enqueue block JavaScript and CSS for the editor
+ */
+function wpzfbp_editor_scripts() {
+
+    // Enqueue block editor JS
+    wp_enqueue_script(
+        'wpzfbp-editor-js',
+        plugins_url( '/assets/js/editor.js', __FILE__ ),
+        [ 'wp-blocks', 'wp-i18n', 'wp-element', 'wp-components', 'wp-editor' ],
+        filemtime( plugin_dir_path( __FILE__ ) . 'assets/js/editor.js' )
+    );
+
+    // Enqueue block editor styles
+    wp_enqueue_style(
+        'wpzfbp-editor-css',
+        plugins_url( '/assets/css/style.css', __FILE__ ),
+        [ 'wp-edit-blocks' ],
+        filemtime( plugin_dir_path( __FILE__ ) . 'assets/css/style.css' )
+    );
+
+}
+
+// Hook the enqueue functions into the editor
+add_action( 'enqueue_block_editor_assets', 'wpzfbp_editor_scripts' );
