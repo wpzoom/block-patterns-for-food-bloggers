@@ -6,7 +6,7 @@
 function wpzoom_fbp_register_block_patterns() {
 
         $block_pattern_categories = array(
-            'wpz-featured'      => array( 'label' => __( 'WPZOOM Food Blog Patterns', 'wpzoom-food-blog-patterns' ) ),
+            'wpz-featured'      => array( 'label' => __( 'WPZOOM: Food Blog Patterns', 'wpzoom-food-blog-patterns' ) ),
         );
 
         $block_pattern_categories = apply_filters( 'wpzoom_block_pattern_categories', $block_pattern_categories );
@@ -22,6 +22,8 @@ function wpzoom_fbp_register_block_patterns() {
                 'free/featured/hero2',
                 'free/featured/hero3',
                 'free/featured/newsletter',
+                'free/featured/newsletter2',
+                'free/featured/newsletter3',
                 'free/featured/instagram',
                 'free/featured/book',
                 'free/featured/about',
