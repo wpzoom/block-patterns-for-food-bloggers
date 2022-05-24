@@ -47,7 +47,8 @@ function wpzfbp_editor_scripts() {
         'wpzfbp-editor-js',
         plugins_url( '/assets/js/editor.js', __FILE__ ),
         [ 'wp-blocks', 'wp-i18n', 'wp-element', 'wp-components' ],
-        filemtime( plugin_dir_path( __FILE__ ) . 'assets/js/editor.js' )
+        filemtime( plugin_dir_path( __FILE__ ) . 'assets/js/editor.js' ),
+		true
     );
 
     // Enqueue block editor styles
