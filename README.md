@@ -1,2 +1,2 @@
-# block-patterns-for-food-bloggers
- A collection of block patterns
+# Block Patterns for Food Bloggers
+ A collection of Gutenberg Block Patterns for food bloggers
