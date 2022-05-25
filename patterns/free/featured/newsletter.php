@@ -4,7 +4,7 @@
  */
 
 return array(
-    'title'      => esc_html__( 'Newsletter Form', 'wpzoom-food-blog-patterns' ),
+    'title'      => esc_html__( 'Newsletter Form', 'block-patterns-for-food-bloggers' ),
     'categories' => array( 'wpz-featured' ),
     'content'    => '<!-- wp:group {"align":"full","style":{"color":{"gradient":"linear-gradient(180deg,rgba(255,234,204,0.35) 4%,rgb(250,208,138) 100%)"}},"className":"wpz_patterns_7"} -->
 <div class="wp-block-group alignfull wpz_patterns_7 has-background" style="background:linear-gradient(180deg,rgba(255,234,204,0.35) 4%,rgb(250,208,138) 100%)"><!-- wp:columns -->

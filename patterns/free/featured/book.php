@@ -4,7 +4,7 @@
  */
 
 return array(
-    'title'      => esc_html__( 'Book', 'wpzoom-food-blog-patterns' ),
+    'title'      => esc_html__( 'Book', 'block-patterns-for-food-bloggers' ),
     'categories' => array( 'wpz-featured' ),
     'content'    => '<!-- wp:group {"backgroundColor":"black","className":"wpz_pattern_9"} -->
 <div class="wp-block-group wpz_pattern_9 has-black-background-color has-background"><!-- wp:columns {"verticalAlignment":"center"} -->

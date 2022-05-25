@@ -4,7 +4,7 @@
  */
 
 return array(
-    'title'      => esc_html__( 'Cover #1', 'wpzoom-food-blog-patterns' ),
+    'title'      => esc_html__( 'Cover #1', 'block-patterns-for-food-bloggers' ),
     'categories' => array( 'wpz-featured' ),
     'content'    => '<!-- wp:cover {"url":"https://demo.wpzoom.com/foodica-patterns/files/2022/04/brooke-lark-sG-PR0BNwb4-unsplash.jpeg","id":6706,"dimRatio":0,"customOverlayColor":"#122b21","contentPosition":"center center","isDark":false,"align":"full","className":"wpz_pattern_10"} -->
 <div class="wp-block-cover alignfull is-light wpz_pattern_10"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#122b21"></span><img class="wp-block-cover__image-background wp-image-6706" alt="" src="https://demo.wpzoom.com/foodica-patterns/files/2022/04/brooke-lark-sG-PR0BNwb4-unsplash.jpeg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:spacer {"height":"250px"} -->

@@ -4,7 +4,7 @@
  */
 
 return array(
-    'title'      => esc_html__( 'Getting Started', 'wpzoom-food-blog-patterns' ),
+    'title'      => esc_html__( 'Getting Started', 'block-patterns-for-food-bloggers' ),
     'categories' => array( 'wpz-featured' ),
     'content'    => '<!-- wp:group {"align":"full","style":{"color":{"background":"#fafafa"}},"className":"wpz_pattern_11"} -->
 <div class="wp-block-group alignfull wpz_pattern_11 has-background" style="background-color:#fafafa"><!-- wp:group -->

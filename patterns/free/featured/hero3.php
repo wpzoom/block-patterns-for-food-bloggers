@@ -4,7 +4,7 @@
  */
 
 return array(
-    'title'      => esc_html__( 'Hero #3', 'wpzoom-food-blog-patterns' ),
+    'title'      => esc_html__( 'Hero #3', 'block-patterns-for-food-bloggers' ),
     'categories' => array( 'wpz-featured' ),
     'content'    => '<!-- wp:group {"style":{"color":{"gradient":"linear-gradient(180deg,rgb(253,253,253) 0%,rgb(232,238,244) 100%)"}},"className":"wpz_pattern_8"} -->
 <div class="wp-block-group wpz_pattern_8 has-background" style="background:linear-gradient(180deg,rgb(253,253,253) 0%,rgb(232,238,244) 100%)"><!-- wp:spacer {"height":"75px"} -->

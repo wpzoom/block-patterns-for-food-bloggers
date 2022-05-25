@@ -10,7 +10,7 @@
  * Author URI:        https://www.wpzoom.com/
  * License:           GPL v2 or later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
- * Text Domain:       wpzoom-food-blog-patterns
+ * Text Domain:       block-patterns-for-food-bloggers
  * Domain Path:       /languages
  */
 
@@ -99,7 +99,7 @@ class WPZOOM_Food_Blog_Patterns {
 	 * @access public
 	 */
 	public function i18n() {
-		load_plugin_textdomain( 'wpzoom-food-blog-patterns', false, WPZOOM_FB_PATTERNS_PLUGIN_DIR . '/languages' );
+		load_plugin_textdomain( 'block-patterns-for-food-bloggers', false, WPZOOM_FB_PATTERNS_PLUGIN_DIR . '/languages' );
 	}
 
 	/**

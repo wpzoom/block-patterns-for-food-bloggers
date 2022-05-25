@@ -4,7 +4,7 @@
  */
 
 return array(
-    'title'      => esc_html__( 'Instagram CTA', 'wpzoom-food-blog-patterns' ),
+    'title'      => esc_html__( 'Instagram CTA', 'block-patterns-for-food-bloggers' ),
     'categories' => array( 'wpz-featured' ),
     'content'    => '<!-- wp:group {"style":{"color":{"background":"#fafafa"}},"className":"wpz_pattern_6"} -->
 <div class="wp-block-group wpz_pattern_6 has-background" style="background-color:#fafafa"><!-- wp:spacer {"height":"50px"} -->
