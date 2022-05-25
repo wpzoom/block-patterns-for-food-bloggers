@@ -4,7 +4,7 @@
  */
 
 return array(
-    'title'      => __( 'Posts Grid (2 Columns)', 'wpzoom' ),
+    'title'      => esc_html__( 'Posts Grid (2 Columns)', 'wpzoom-food-blog-patterns' ),
     'categories' => array( 'wpz-featured' ),
     'content'    => '<!-- wp:group {"align":"full","style":{"color":{}},"className":"wpz_pattern_15"} -->
 <div class="wp-block-group alignfull wpz_pattern_15"><!-- wp:heading {"style":{"typography":{"fontSize":"24px"}}} -->

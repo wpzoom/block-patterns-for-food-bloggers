@@ -4,7 +4,7 @@
  */
 
 return array(
-    'title'      => __( 'Newsletter Form', 'wpzoom' ),
+    'title'      => esc_html__( 'Newsletter Form', 'wpzoom-food-blog-patterns' ),
     'categories' => array( 'wpz-featured' ),
     'content'    => '<!-- wp:group {"align":"full","style":{"color":{"background":"#eff4f7"}},"className":"wpz_pattern_18"} -->
 <div class="wp-block-group alignfull wpz_pattern_18 has-background" style="background-color:#eff4f7"><!-- wp:columns {"verticalAlignment":"center"} -->

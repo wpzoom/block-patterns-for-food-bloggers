@@ -4,7 +4,7 @@
  */
 
 return array(
-    'title'      => __( 'Search Bar #2', 'wpzoom' ),
+    'title'      => esc_html__( 'Search Bar #2', 'wpzoom-food-blog-patterns' ),
     'categories' => array( 'wpz-featured' ),
     'content'    => '<!-- wp:group {"style":{"color":{"background":"#fafafa"}},"className":"wpz_pattern_13"} -->
 <div class="wp-block-group wpz_pattern_13 has-background" style="background-color:#fafafa"><!-- wp:columns -->
