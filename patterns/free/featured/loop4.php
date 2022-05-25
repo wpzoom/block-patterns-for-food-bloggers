@@ -4,7 +4,7 @@
  */
 
 return array(
-    'title'      => __( 'Posts Grid (Overlay)', 'wpzoom' ),
+    'title'      => esc_html__( 'Posts Grid (Overlay)', 'wpzoom-food-blog-patterns' ),
     'categories' => array( 'wpz-featured' ),
     'content'    => '<!-- wp:group {"align":"full","style":{"color":{"background":"#fafafa"}},"className":"wpz_pattern_17 wpz-overlay-posts"} -->
 <div class="wp-block-group alignfull wpz_pattern_17 wpz-overlay-posts has-background" style="background-color:#fafafa"><!-- wp:heading -->

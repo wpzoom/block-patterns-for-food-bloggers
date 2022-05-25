@@ -4,7 +4,7 @@
  */
 
 return array(
-    'title'      => __( 'Featured Categories', 'wpzoom' ),
+    'title'      => esc_html__( 'Featured Categories', 'wpzoom-food-blog-patterns' ),
     'categories' => array( 'wpz-featured' ),
     'content'    => '<!-- wp:group {"align":"full","style":{"color":{"background":"#fafafa"}},"className":"wpz_pattern_1"} -->
 <div class="wp-block-group alignfull wpz_pattern_1 has-background" style="background-color:#fafafa"><!-- wp:spacer {"height":"50px","className":"eplus-wrapper"} -->

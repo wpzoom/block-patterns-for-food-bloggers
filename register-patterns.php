@@ -6,7 +6,7 @@
 function wpzoom_fbp_register_block_patterns() {
 
         $block_pattern_categories = array(
-            'wpz-featured'      => array( 'label' => __( 'WPZOOM: Food Blog Patterns', 'wpzoom-food-blog-patterns' ) ),
+            'wpz-featured'      => array( 'label' => esc_attr__( 'WPZOOM: Food Blog Patterns', 'wpzoom-food-blog-patterns' ) ),
         );
 
         $block_pattern_categories = apply_filters( 'wpzoom_block_pattern_categories', $block_pattern_categories );
