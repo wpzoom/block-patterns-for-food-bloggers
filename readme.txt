@@ -32,3 +32,10 @@ In the Block editor click on the "+" button at the top-left, select the Patterns
 == Screenshots ==
 
 1. Patterns Library
+
+
+
+== Changelog ==
+
+= 1.0.0 =
+* Initial plugin release
