@@ -3,11 +3,13 @@
  * Default content width (Dark version)
  */
 
+$url = WPZOOM_FB_PATTERNS_URL . 'patterns/images/';
+
 return array(
     'title'      => esc_html__( 'About Me', 'block-patterns-for-food-bloggers' ),
     'categories' => array( 'wpz-featured' ),
-    'content'    => '<!-- wp:media-text {"align":"","mediaId":6348,"mediaLink":"https://demo.wpzoom.com/foodica-patterns/about/le-creuset-1dwl-nrcgmi-unsplash-1/","mediaType":"image","mediaWidth":47,"className":"wpz_pattern_4"} -->
-<div class="wp-block-media-text is-stacked-on-mobile wpz_pattern_4" style="grid-template-columns:47% auto"><figure class="wp-block-media-text__media"><img src="https://demo.wpzoom.com/foodica-patterns/files/2021/10/le-creuset-1dWl-NRcgmI-unsplash-1-1024x987.jpg" alt="" class="wp-image-6348 size-full"/></figure><div class="wp-block-media-text__content"><!-- wp:group {"style":{"color":{"background":"#fafafa"}},"className":"eplus-wrapper"} -->
+    'content'    => '<!-- wp:media-text {"align":"","mediaId":6348,"mediaLink":"#","mediaType":"image","mediaWidth":47,"className":"wpz_pattern_4"} -->
+<div class="wp-block-media-text is-stacked-on-mobile wpz_pattern_4" style="grid-template-columns:47% auto"><figure class="wp-block-media-text__media"><img src="' . $url . 'le-creuset-1dWl-NRcgmI-unsplash-1-1024x987.jpg" alt="" class="wp-image-6348 size-full"/></figure><div class="wp-block-media-text__content"><!-- wp:group {"style":{"color":{"background":"#fafafa"}},"className":"eplus-wrapper"} -->
 <div class="wp-block-group eplus-wrapper has-background" style="background-color:#fafafa"><!-- wp:spacer {"height":"50px"} -->
 <div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
