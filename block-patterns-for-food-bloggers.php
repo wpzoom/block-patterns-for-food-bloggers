@@ -18,9 +18,10 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
 }
 
-define( 'WPZOOM_FB_PATTERNS_VER', '1.0' );
+define( 'WPZOOM_FB_PATTERNS_VER', get_file_data( __FILE__, [ 'Version' ] )[0] ); // phpcs:ignore
 
 define( 'WPZOOM_FB_PATTERNS__FILE__', __FILE__ );
+define( 'WPZOOM_FB_PATTERNS_ABSPATH', dirname( __FILE__ ) . '/' );
 define( 'WPZOOM_FB_PATTERNS_PLUGIN_BASE', plugin_basename( WPZOOM_FB_PATTERNS__FILE__ ) );
 define( 'WPZOOM_FB_PATTERNS_PLUGIN_DIR', dirname( WPZOOM_FB_PATTERNS_PLUGIN_BASE ) );
 
@@ -159,6 +160,28 @@ class WPZOOM_Food_Blog_Patterns {
 			WPZOOM_FB_PATTERNS_VER
 		);
 
+		// Scripts.
+		$script_asset = $this->get_asset_file( 'build/block-patterns-for-food-bloggers-editor' );
+
+		wp_enqueue_script(
+			'block-patterns-for-food-bloggers-editor-scripts',
+			WPZOOM_FB_PATTERNS_URL . 'build/block-patterns-for-food-bloggers-editor.js',
+			array_merge( $script_asset['dependencies'], array( 'wp-api' ) ),
+			$script_asset['version'],
+			true
+		);
+
+		// Styles.
+		$style_asset = $this->get_asset_file( 'build/block-patterns-for-food-bloggers-editor-styles' );
+
+		wp_enqueue_style(
+			'block-patterns-for-food-bloggers-editor-styles',
+			WPZOOM_FB_PATTERNS_URL . 'build/style-block-patterns-for-food-bloggers-editor-styles.css',
+			array(),
+			$style_asset['version']
+		);
+
+
 	}
 
 	/**
@@ -216,6 +239,26 @@ class WPZOOM_Food_Blog_Patterns {
 		}
 
 		return str_replace( [ '<html>', '</html>' ], '', $dom->saveHTML( $dom->documentElement ) );
+	}
+
+	/**
+	 * Loads the asset file for the given script or style.
+	 * Returns a default if the asset file is not found.
+	 *
+	 * @since 0.1.0
+	 *
+	 * @param string $filepath The name of the file without the extension.
+	 * @return array           The asset file contents.
+	 */
+	function get_asset_file( $filepath ) {
+		$asset_path = WPZOOM_FB_PATTERNS_ABSPATH . $filepath . '.asset.php';
+
+		return file_exists( $asset_path )
+			? require_once $asset_path
+			: array(
+				'dependencies' => array(),
+				'version'      => WPZOOM_FB_PATTERNS_ABSPATH,
+			);
 	}
 
 }
