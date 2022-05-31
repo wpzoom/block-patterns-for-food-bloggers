@@ -113,16 +113,27 @@
     margin-top: 80px;
     margin-bottom: 80px;
 
-    .wp-block-columns > div:first-child {
-        margin-top: -70px;
-        margin-bottom: -100px;
-        margin-right: 3%;
-        margin-left: 2%;
 
-        img {
-            margin-bottom: 0;
+}
+
+@media (min-width: 800px) {
+
+    .wpz_pattern_9 {
+
+        .wp-block-columns > div:first-child {
+            margin-top: -70px;
+            margin-bottom: -100px;
+            margin-right: 3%;
+            margin-left: 2%;
+
+            img {
+                margin-bottom: 0;
+            }
         }
+
     }
+
+
 
 }
 

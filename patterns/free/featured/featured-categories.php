@@ -1,7 +1,6 @@
 <?php
-/**
- * Default content width (Dark version)
- */
+
+$url = WPZOOM_FB_PATTERNS_URL . 'patterns/images/';
 
 return array(
     'title'      => esc_html__( 'Featured Categories', 'block-patterns-for-food-bloggers' ),
@@ -33,24 +32,24 @@ return array(
 
 <!-- wp:columns {"className":"eplus-wrapper"} -->
 <div class="wp-block-columns eplus-wrapper"><!-- wp:column {"width":"","className":"eplus-wrapper"} -->
-<div class="wp-block-column eplus-wrapper"><!-- wp:cover {"url":"https://demo.wpzoom.com/foodica-patterns/files/2020/10/14052718_1623645751299515_1462432385_n-1-1.jpg","id":5805,"dimRatio":50,"minHeight":100,"minHeightUnit":"px","isDark":false,"className":"is-style-editorskit-rounded eplus-wrapper"} -->
-<div class="wp-block-cover is-light is-style-editorskit-rounded eplus-wrapper" style="min-height:100px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim"></span><img class="wp-block-cover__image-background wp-image-5805" alt="" src="https://demo.wpzoom.com/foodica-patterns/files/2020/10/14052718_1623645751299515_1462432385_n-1-1.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:heading {"textAlign":"center","level":3,"textColor":"white","className":"eplus-wrapper","fontSize":"medium"} -->
+<div class="wp-block-column eplus-wrapper"><!-- wp:cover {"url":"' . $url . 'foodiesfeed.com_lemon-basil-sponge-cake.jpg","id":5805,"dimRatio":50,"minHeight":100,"minHeightUnit":"px","isDark":false,"className":"is-style-editorskit-rounded eplus-wrapper"} -->
+<div class="wp-block-cover is-light is-style-editorskit-rounded eplus-wrapper" style="min-height:100px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim"></span><img class="wp-block-cover__image-background wp-image-5805" alt="" src="' . $url . 'foodiesfeed.com_lemon-basil-sponge-cake.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:heading {"textAlign":"center","level":3,"textColor":"white","className":"eplus-wrapper","fontSize":"medium"} -->
 <h3 class="has-text-align-center eplus-wrapper has-white-color has-text-color has-medium-font-size"><strong><a href="#">Desserts</a></strong></h3>
 <!-- /wp:heading --></div></div>
 <!-- /wp:cover --></div>
 <!-- /wp:column -->
 
 <!-- wp:column {"className":"eplus-wrapper"} -->
-<div class="wp-block-column eplus-wrapper"><!-- wp:cover {"url":"https://demo.wpzoom.com/foodica-patterns/files/2013/01/antipasto_066_crop-e1459676473936.jpg","id":209,"dimRatio":50,"minHeight":100,"minHeightUnit":"px","isDark":false,"className":"is-style-editorskit-rounded eplus-wrapper"} -->
-<div class="wp-block-cover is-light is-style-editorskit-rounded eplus-wrapper" style="min-height:100px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim"></span><img class="wp-block-cover__image-background wp-image-209" alt="" src="https://demo.wpzoom.com/foodica-patterns/files/2013/01/antipasto_066_crop-e1459676473936.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:heading {"textAlign":"center","level":3,"textColor":"white","className":"eplus-wrapper","fontSize":"medium"} -->
+<div class="wp-block-column eplus-wrapper"><!-- wp:cover {"url":"' . $url . 'foodiesfeed.com_cheese-appetizer.jpg","id":209,"dimRatio":50,"minHeight":100,"minHeightUnit":"px","isDark":false,"className":"is-style-editorskit-rounded eplus-wrapper"} -->
+<div class="wp-block-cover is-light is-style-editorskit-rounded eplus-wrapper" style="min-height:100px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim"></span><img class="wp-block-cover__image-background wp-image-209" alt="" src="' . $url . 'foodiesfeed.com_cheese-appetizer.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:heading {"textAlign":"center","level":3,"textColor":"white","className":"eplus-wrapper","fontSize":"medium"} -->
 <h3 class="has-text-align-center eplus-wrapper has-white-color has-text-color has-medium-font-size"><strong><a href="#">Appetizers</a></strong></h3>
 <!-- /wp:heading --></div></div>
 <!-- /wp:cover --></div>
 <!-- /wp:column -->
 
 <!-- wp:column {"className":"eplus-wrapper"} -->
-<div class="wp-block-column eplus-wrapper"><!-- wp:cover {"url":"https://demo.wpzoom.com/foodica-patterns/files/2013/01/FFF_4401-e1459676383123.jpg","id":229,"dimRatio":50,"minHeight":100,"minHeightUnit":"px"} -->
-<div class="wp-block-cover" style="min-height:100px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim"></span><img class="wp-block-cover__image-background wp-image-229" alt="" src="https://demo.wpzoom.com/foodica-patterns/files/2013/01/FFF_4401-e1459676383123.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:heading {"textAlign":"center","level":3,"textColor":"white","className":"eplus-wrapper","fontSize":"medium"} -->
+<div class="wp-block-column eplus-wrapper"><!-- wp:cover {"url":"' . $url . 'foodiesfeed.com_fancy-dinner-with-seafood-pasta-and-crayfish.jpg","id":229,"dimRatio":50,"minHeight":100,"minHeightUnit":"px"} -->
+<div class="wp-block-cover" style="min-height:100px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim"></span><img class="wp-block-cover__image-background wp-image-229" alt="" src="' . $url . 'foodiesfeed.com_fancy-dinner-with-seafood-pasta-and-crayfish.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:heading {"textAlign":"center","level":3,"textColor":"white","className":"eplus-wrapper","fontSize":"medium"} -->
 <h3 class="has-text-align-center eplus-wrapper has-white-color has-text-color has-medium-font-size"><strong><a href="#">Pasta</a></strong></h3>
 <!-- /wp:heading --></div></div>
 <!-- /wp:cover --></div>
@@ -59,24 +58,24 @@ return array(
 
 <!-- wp:columns {"className":"eplus-wrapper"} -->
 <div class="wp-block-columns eplus-wrapper"><!-- wp:column {"className":"eplus-wrapper"} -->
-<div class="wp-block-column eplus-wrapper"><!-- wp:cover {"url":"https://demo.wpzoom.com/foodica-patterns/files/2012/12/chiabatta_008-e1459676454209.jpg","id":215,"dimRatio":50,"minHeight":100,"minHeightUnit":"px","isDark":false,"className":"is-style-editorskit-rounded eplus-wrapper","style":{"color":{}}} -->
-<div class="wp-block-cover is-light is-style-editorskit-rounded eplus-wrapper" style="min-height:100px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim"></span><img class="wp-block-cover__image-background wp-image-215" alt="" src="https://demo.wpzoom.com/foodica-patterns/files/2012/12/chiabatta_008-e1459676454209.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:heading {"textAlign":"center","level":3,"textColor":"white","className":"eplus-wrapper","fontSize":"medium"} -->
+<div class="wp-block-column eplus-wrapper"><!-- wp:cover {"url":"' . $url . 'foodiesfeed.com_homemade-artisan-sourdough-bread.jpg","id":215,"dimRatio":50,"minHeight":100,"minHeightUnit":"px","isDark":false,"className":"is-style-editorskit-rounded eplus-wrapper","style":{"color":{}}} -->
+<div class="wp-block-cover is-light is-style-editorskit-rounded eplus-wrapper" style="min-height:100px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim"></span><img class="wp-block-cover__image-background wp-image-215" alt="" src="' . $url . 'foodiesfeed.com_homemade-artisan-sourdough-bread.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:heading {"textAlign":"center","level":3,"textColor":"white","className":"eplus-wrapper","fontSize":"medium"} -->
 <h3 class="has-text-align-center eplus-wrapper has-white-color has-text-color has-medium-font-size"><strong><a href="#">Baking</a></strong></h3>
 <!-- /wp:heading --></div></div>
 <!-- /wp:cover --></div>
 <!-- /wp:column -->
 
 <!-- wp:column {"className":"eplus-wrapper"} -->
-<div class="wp-block-column eplus-wrapper"><!-- wp:cover {"url":"https://demo.wpzoom.com/foodica-patterns/files/2013/01/FFF_6428-e1459676438132.jpg","id":218,"dimRatio":50,"minHeight":100,"minHeightUnit":"px","isDark":false,"className":"is-style-editorskit-rounded eplus-wrapper"} -->
-<div class="wp-block-cover is-light is-style-editorskit-rounded eplus-wrapper" style="min-height:100px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim"></span><img class="wp-block-cover__image-background wp-image-218" alt="" src="https://demo.wpzoom.com/foodica-patterns/files/2013/01/FFF_6428-e1459676438132.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:heading {"textAlign":"center","level":3,"textColor":"white","className":"eplus-wrapper","fontSize":"medium"} -->
+<div class="wp-block-column eplus-wrapper"><!-- wp:cover {"url":"' . $url . 'foodiesfeed.com_vegetable-couscous-with-shrimps-and-fish.jpg","id":218,"dimRatio":50,"minHeight":100,"minHeightUnit":"px","isDark":false,"className":"is-style-editorskit-rounded eplus-wrapper"} -->
+<div class="wp-block-cover is-light is-style-editorskit-rounded eplus-wrapper" style="min-height:100px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim"></span><img class="wp-block-cover__image-background wp-image-218" alt="" src="' . $url . 'foodiesfeed.com_vegetable-couscous-with-shrimps-and-fish.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:heading {"textAlign":"center","level":3,"textColor":"white","className":"eplus-wrapper","fontSize":"medium"} -->
 <h3 class="has-text-align-center eplus-wrapper has-white-color has-text-color has-medium-font-size"><strong><a href="#">Fish</a></strong></h3>
 <!-- /wp:heading --></div></div>
 <!-- /wp:cover --></div>
 <!-- /wp:column -->
 
 <!-- wp:column {"className":"eplus-wrapper"} -->
-<div class="wp-block-column eplus-wrapper"><!-- wp:cover {"url":"https://demo.wpzoom.com/foodica-patterns/files/2020/10/13671694_275121562871591_8340278_n-2.jpg","id":5800,"dimRatio":50,"minHeight":100,"minHeightUnit":"px","className":"is-style-editorskit-rounded eplus-wrapper"} -->
-<div class="wp-block-cover is-style-editorskit-rounded eplus-wrapper" style="min-height:100px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim"></span><img class="wp-block-cover__image-background wp-image-5800" alt="" src="https://demo.wpzoom.com/foodica-patterns/files/2020/10/13671694_275121562871591_8340278_n-2.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:heading {"textAlign":"center","level":3,"textColor":"white","className":"eplus-wrapper","fontSize":"medium"} -->
+<div class="wp-block-column eplus-wrapper"><!-- wp:cover {"url":"' . $url . 'foodiesfeed.com_easter-breakfast-of-fried-quail-eggs-on-bread-with-butter.jpg","id":5800,"dimRatio":50,"minHeight":100,"minHeightUnit":"px","className":"is-style-editorskit-rounded eplus-wrapper"} -->
+<div class="wp-block-cover is-style-editorskit-rounded eplus-wrapper" style="min-height:100px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim"></span><img class="wp-block-cover__image-background wp-image-5800" alt="" src="' . $url . 'foodiesfeed.com_easter-breakfast-of-fried-quail-eggs-on-bread-with-butter.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:heading {"textAlign":"center","level":3,"textColor":"white","className":"eplus-wrapper","fontSize":"medium"} -->
 <h3 class="has-text-align-center eplus-wrapper has-white-color has-text-color has-medium-font-size"><strong><a href="#">Brunch</a></strong></h3>
 <!-- /wp:heading --></div></div>
 <!-- /wp:cover --></div>

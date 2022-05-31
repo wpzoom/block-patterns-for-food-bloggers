@@ -1,7 +1,5 @@
 <?php
-/**
- * Default content width (Dark version)
- */
+$url = WPZOOM_FB_PATTERNS_URL . 'patterns/images/';
 
 return array(
     'title'      => esc_html__( 'Getting Started', 'block-patterns-for-food-bloggers' ),
@@ -18,32 +16,32 @@ return array(
 
 <!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column -->
-<div class="wp-block-column"><!-- wp:cover {"url":"https://demo.wpzoom.com/foodica-patterns/files/2020/10/13671694_275121562871591_8340278_n-1-1.jpg","id":5801,"dimRatio":50,"minHeight":250,"minHeightUnit":"px"} -->
-<div class="wp-block-cover" style="min-height:250px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim"></span><img class="wp-block-cover__image-background wp-image-5801" alt="" src="https://demo.wpzoom.com/foodica-patterns/files/2020/10/13671694_275121562871591_8340278_n-1-1.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"align":"center","placeholder":"Write title…","style":{"typography":{"fontSize":"24px"}},"textColor":"white"} -->
+<div class="wp-block-column"><!-- wp:cover {"url":"' . $url . 'foodiesfeed.com_cheese-appetizer.jpg","id":5801,"dimRatio":50,"minHeight":250,"minHeightUnit":"px"} -->
+<div class="wp-block-cover" style="min-height:250px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim"></span><img class="wp-block-cover__image-background wp-image-5801" alt="" src="' . $url . 'foodiesfeed.com_cheese-appetizer.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"align":"center","placeholder":"Write title…","style":{"typography":{"fontSize":"24px"}},"textColor":"white"} -->
 <p class="has-text-align-center has-white-color has-text-color" style="font-size:24px"><a href="#">RECIPES</a></p>
 <!-- /wp:paragraph --></div></div>
 <!-- /wp:cover --></div>
 <!-- /wp:column -->
 
 <!-- wp:column -->
-<div class="wp-block-column"><!-- wp:cover {"url":"https://demo.wpzoom.com/foodica-patterns/files/2021/10/le-creuset-1dWl-NRcgmI-unsplash-1.jpg","id":6348,"dimRatio":50,"minHeight":250,"minHeightUnit":"px","isDark":false} -->
-<div class="wp-block-cover is-light" style="min-height:250px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim"></span><img class="wp-block-cover__image-background wp-image-6348" alt="" src="https://demo.wpzoom.com/foodica-patterns/files/2021/10/le-creuset-1dWl-NRcgmI-unsplash-1.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"align":"center","placeholder":"Write title…","style":{"typography":{"fontSize":"24px"}},"textColor":"white"} -->
+<div class="wp-block-column"><!-- wp:cover {"url":"' . $url . 'pexels-andrea-piacquadio-3771106.jpg","id":6348,"dimRatio":50,"minHeight":250,"minHeightUnit":"px","isDark":false} -->
+<div class="wp-block-cover is-light" style="min-height:250px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim"></span><img class="wp-block-cover__image-background wp-image-6348" alt="" src="' . $url . 'pexels-andrea-piacquadio-3771106.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"align":"center","placeholder":"Write title…","style":{"typography":{"fontSize":"24px"}},"textColor":"white"} -->
 <p class="has-text-align-center has-white-color has-text-color" style="font-size:24px"><a href="#">ABOUT ME</a></p>
 <!-- /wp:paragraph --></div></div>
 <!-- /wp:cover --></div>
 <!-- /wp:column -->
 
 <!-- wp:column -->
-<div class="wp-block-column"><!-- wp:cover {"url":"https://demo.wpzoom.com/foodica-patterns/files/2022/04/jason-briscoe-PkkLkjJdUZw-unsplash-1.jpeg","id":6704,"dimRatio":50,"minHeight":250,"minHeightUnit":"px"} -->
-<div class="wp-block-cover" style="min-height:250px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim"></span><img class="wp-block-cover__image-background wp-image-6704" alt="" src="https://demo.wpzoom.com/foodica-patterns/files/2022/04/jason-briscoe-PkkLkjJdUZw-unsplash-1.jpeg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"align":"center","placeholder":"Write title…","style":{"typography":{"fontSize":"24px"}},"textColor":"white"} -->
+<div class="wp-block-column"><!-- wp:cover {"url":"' . $url . 'pexels-tony-smith-3505699.jpg","id":6704,"dimRatio":50,"minHeight":250,"minHeightUnit":"px"} -->
+<div class="wp-block-cover" style="min-height:250px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim"></span><img class="wp-block-cover__image-background wp-image-6704" alt="" src="' . $url . 'pexels-tony-smith-3505699.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"align":"center","placeholder":"Write title…","style":{"typography":{"fontSize":"24px"}},"textColor":"white"} -->
 <p class="has-text-align-center has-white-color has-text-color" style="font-size:24px"><a href="#">TOOLS</a></p>
 <!-- /wp:paragraph --></div></div>
 <!-- /wp:cover --></div>
 <!-- /wp:column -->
 
 <!-- wp:column -->
-<div class="wp-block-column"><!-- wp:cover {"url":"https://demo.wpzoom.com/foodica-patterns/files/2022/04/bovin-wook-dmaU6NQdp3I-unsplash.jpeg","id":6705,"dimRatio":50,"minHeight":250,"minHeightUnit":"px","isDark":false} -->
-<div class="wp-block-cover is-light" style="min-height:250px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim"></span><img class="wp-block-cover__image-background wp-image-6705" alt="" src="https://demo.wpzoom.com/foodica-patterns/files/2022/04/bovin-wook-dmaU6NQdp3I-unsplash.jpeg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"align":"center","placeholder":"Write title…","style":{"typography":{"fontSize":"24px"}},"textColor":"white"} -->
+<div class="wp-block-column"><!-- wp:cover {"url":"' . $url . 'pexels-mikhail-nilov-6958009.jpg","id":6705,"dimRatio":50,"minHeight":250,"minHeightUnit":"px","isDark":false} -->
+<div class="wp-block-cover is-light" style="min-height:250px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim"></span><img class="wp-block-cover__image-background wp-image-6705" alt="" src="' . $url . 'pexels-mikhail-nilov-6958009.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"align":"center","placeholder":"Write title…","style":{"typography":{"fontSize":"24px"}},"textColor":"white"} -->
 <p class="has-text-align-center has-white-color has-text-color" style="font-size:24px"><a href="#">MERCH</a></p>
 <!-- /wp:paragraph --></div></div>
 <!-- /wp:cover --></div>

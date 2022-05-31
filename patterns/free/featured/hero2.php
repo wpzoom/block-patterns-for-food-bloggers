@@ -1,7 +1,6 @@
 <?php
-/**
- * Default content width (Dark version)
- */
+
+$url = WPZOOM_FB_PATTERNS_URL . 'patterns/images/';
 
 return array(
     'title'      => esc_html__( 'Hero #2', 'block-patterns-for-food-bloggers' ),
@@ -37,7 +36,7 @@ return array(
 <!-- wp:column {"verticalAlignment":"center","width":"100%"} -->
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:100%"><!-- wp:group -->
 <div class="wp-block-group"><!-- wp:image {"align":"right","id":6348,"sizeSlug":"medium","linkDestination":"media","className":"is-style-rounded"} -->
-<figure class="wp-block-image alignright size-medium is-style-rounded"><a href="https://demo.wpzoom.com/foodica-patterns/files/2021/10/le-creuset-1dWl-NRcgmI-unsplash-1.jpg"><img src="https://demo.wpzoom.com/foodica-patterns/files/2021/10/le-creuset-1dWl-NRcgmI-unsplash-1-300x289.jpg" alt="" class="wp-image-6348"/></a></figure>
+<figure class="wp-block-image alignright size-medium is-style-rounded"><a href="#"><img src="' . $url . 'pexels-andrea-piacquadio-3771106.jpg" alt="" class="wp-image-6348"/></a></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column --></div>
@@ -54,31 +53,31 @@ return array(
 <!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:image {"align":"left","id":6561,"sizeSlug":"full","linkDestination":"media"} -->
-<figure class="wp-block-image alignleft size-full"><a href="https://demo.wpzoom.com/foodica-patterns/files/2022/03/DAILY-MAGAZINE.png"><img src="https://demo.wpzoom.com/foodica-patterns/files/2022/03/DAILY-MAGAZINE.png" alt="" class="wp-image-6561"/></a></figure>
+<figure class="wp-block-image alignleft size-full"><a href="#"><img src="' . $url . 'DAILY-MAGAZINE.png" alt="" class="wp-image-6561"/></a></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column -->
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:image {"align":"left","id":6563,"sizeSlug":"full","linkDestination":"media"} -->
-<figure class="wp-block-image alignleft size-full"><a href="https://demo.wpzoom.com/foodica-patterns/files/2022/03/FOOD-TIMES.png"><img src="https://demo.wpzoom.com/foodica-patterns/files/2022/03/FOOD-TIMES.png" alt="" class="wp-image-6563"/></a></figure>
+<figure class="wp-block-image alignleft size-full"><a href="#"><img src="' . $url . 'FOOD-TIMES.png" alt="" class="wp-image-6563"/></a></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column -->
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:image {"align":"center","id":6564,"sizeSlug":"full","linkDestination":"media"} -->
-<figure class="wp-block-image aligncenter size-full"><a href="https://demo.wpzoom.com/foodica-patterns/files/2022/03/MORNING-BOSTON.png"><img src="https://demo.wpzoom.com/foodica-patterns/files/2022/03/MORNING-BOSTON.png" alt="" class="wp-image-6564"/></a></figure>
+<figure class="wp-block-image aligncenter size-full"><a href="#"><img src="' . $url . 'MORNING-BOSTON.png" alt="" class="wp-image-6564"/></a></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column -->
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:image {"align":"left","id":6566,"sizeSlug":"full","linkDestination":"media"} -->
-<figure class="wp-block-image alignleft size-full"><a href="https://demo.wpzoom.com/foodica-patterns/files/2022/03/RECIPE-101.png"><img src="https://demo.wpzoom.com/foodica-patterns/files/2022/03/RECIPE-101.png" alt="" class="wp-image-6566"/></a></figure>
+<figure class="wp-block-image alignleft size-full"><a href="#"><img src="' . $url . 'RECIPE-101.png" alt="" class="wp-image-6566"/></a></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column -->
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:image {"align":"left","id":6572,"sizeSlug":"full","linkDestination":"media"} -->
-<figure class="wp-block-image alignleft size-full"><a href="https://demo.wpzoom.com/foodica-patterns/files/2022/03/TRM-NETWORK.png"><img src="https://demo.wpzoom.com/foodica-patterns/files/2022/03/TRM-NETWORK.png" alt="" class="wp-image-6572"/></a></figure>
+<figure class="wp-block-image alignleft size-full"><a href="#"><img src="' . $url . 'TRM-NETWORK.png" alt="" class="wp-image-6572"/></a></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>

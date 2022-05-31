@@ -1,7 +1,5 @@
 <?php
-/**
- * Default content width (Dark version)
- */
+$url = WPZOOM_FB_PATTERNS_URL . 'patterns/images/';
 
 return array(
     'title'      => esc_html__( 'Instagram CTA', 'block-patterns-for-food-bloggers' ),
@@ -20,7 +18,7 @@ return array(
 <!-- /wp:group -->
 
 <!-- wp:image {"align":"center","id":6762,"width":151,"height":151,"sizeSlug":"full","linkDestination":"media"} -->
-<figure class="wp-block-image aligncenter size-full is-resized"><img src="https://demo.wpzoom.com/foodica-patterns/files/2022/05/Mask-Group.png" alt="" class="wp-image-6762" width="151" height="151"/><figcaption>@instagram</figcaption></figure>
+<figure class="wp-block-image aligncenter size-full is-resized"><img src="' . $url . 'author.png" alt="" class="wp-image-6762" width="151" height="151"/><figcaption>@instagram</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"align":"center"} -->
@@ -38,7 +36,7 @@ return array(
 <!-- /wp:spacer -->
 
 <!-- wp:image {"align":"center","id":6768,"width":32,"height":32,"sizeSlug":"full","linkDestination":"media"} -->
-<figure class="wp-block-image aligncenter size-full is-resized"><img src="https://demo.wpzoom.com/foodica-patterns/files/2022/05/1217174_instagram_icon-1.png" alt="" class="wp-image-6768" width="32" height="32"/></figure>
+<figure class="wp-block-image aligncenter size-full is-resized"><img src="' . $url . 'instagram.png" alt="" class="wp-image-6768" width="32" height="32"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column -->
 
@@ -46,19 +44,19 @@ return array(
 <div class="wp-block-column is-vertically-aligned-top" style="flex-basis:100%"><!-- wp:group -->
 <div class="wp-block-group"><!-- wp:gallery {"columns":2,"linkTo":"none"} -->
 <figure class="wp-block-gallery has-nested-images columns-2 is-cropped"><!-- wp:image {"id":6348,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="https://demo.wpzoom.com/foodica-patterns/files/2021/10/le-creuset-1dWl-NRcgmI-unsplash-1.jpg" alt="" class="wp-image-6348"/></figure>
+<figure class="wp-block-image size-large"><img src="' . $url . 'pexels-andrea-piacquadio-3771106.jpg" alt="" class="wp-image-6348"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:image {"id":5808,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="https://demo.wpzoom.com/foodica-patterns/files/2020/10/14073256_1760763507527887_1662829914_n-1.jpg" alt="" class="wp-image-5808"/></figure>
+<figure class="wp-block-image size-large"><img src="' . $url . 'small-1.jpg" alt="" class="wp-image-5808"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:image {"id":5807,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="https://demo.wpzoom.com/foodica-patterns/files/2020/10/14032824_288276198212685_1119023301_n-1-1.jpg" alt="" class="wp-image-5807"/></figure>
+<figure class="wp-block-image size-large"><img src="' . $url . 'small-2.jpg" alt="" class="wp-image-5807"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:image {"id":5805,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="https://demo.wpzoom.com/foodica-patterns/files/2020/10/14052718_1623645751299515_1462432385_n-1-1.jpg" alt="" class="wp-image-5805"/></figure>
+<figure class="wp-block-image size-large"><img src="' . $url . 'small-3.jpg" alt="" class="wp-image-5805"/></figure>
 <!-- /wp:image --></figure>
 <!-- /wp:gallery --></div>
 <!-- /wp:group --></div>

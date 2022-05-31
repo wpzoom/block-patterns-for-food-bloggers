@@ -1,7 +1,5 @@
 <?php
-/**
- * Default content width (Dark version)
- */
+$url = WPZOOM_FB_PATTERNS_URL . 'patterns/images/';
 
 return array(
     'title'      => esc_html__( 'Book', 'block-patterns-for-food-bloggers' ),
@@ -10,7 +8,7 @@ return array(
 <div class="wp-block-group wpz_pattern_9 has-black-background-color has-background"><!-- wp:columns {"verticalAlignment":"center"} -->
 <div class="wp-block-columns are-vertically-aligned-center"><!-- wp:column {"verticalAlignment":"center","width":"30%"} -->
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:30%"><!-- wp:image {"align":"center","id":6802,"sizeSlug":"full","linkDestination":"media"} -->
-<figure class="wp-block-image aligncenter size-full"><a href="https://demo.wpzoom.com/foodica-patterns/files/2022/05/book-1.png"><img src="https://demo.wpzoom.com/foodica-patterns/files/2022/05/book-1.png" alt="" class="wp-image-6802"/></a></figure>
+<figure class="wp-block-image aligncenter size-full"><a href="#"><img src="' . $url . 'book.png" alt="" class="wp-image-6802"/></a></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column -->
 

@@ -1,7 +1,5 @@
 <?php
-/**
- * Default content width (Dark version)
- */
+$url = WPZOOM_FB_PATTERNS_URL . 'patterns/images/';
 
 return array(
     'title'      => esc_html__( 'Newsletter Form', 'block-patterns-for-food-bloggers' ),
@@ -48,7 +46,7 @@ return array(
 <!-- /wp:spacer -->
 
 <!-- wp:image {"align":"center","id":6730,"sizeSlug":"large","linkDestination":"none","style":{"border":{"radius":{"topLeft":"50em","topRight":"50em","bottomLeft":null,"bottomRight":null}}}} -->
-<figure class="wp-block-image aligncenter size-large" style="border-top-left-radius:50em;border-top-right-radius:50em"><img src="https://demo.wpzoom.com/foodica-patterns/files/2022/04/jimmy-dean-fVkJv4KP-SA-unsplash-1-683x1024.jpg" alt="" class="wp-image-6730"/></figure>
+<figure class="wp-block-image aligncenter size-large" style="border-top-left-radius:50em;border-top-right-radius:50em"><img src="' . $url . 'pexels-cottonbro-4253312.jpg" alt="" class="wp-image-6730"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:spacer {"height":"60px"} -->

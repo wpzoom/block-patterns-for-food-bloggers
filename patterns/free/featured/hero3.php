@@ -1,7 +1,5 @@
 <?php
-/**
- * Default content width (Dark version)
- */
+$url = WPZOOM_FB_PATTERNS_URL . 'patterns/images/';
 
 return array(
     'title'      => esc_html__( 'Hero #3', 'block-patterns-for-food-bloggers' ),
@@ -12,7 +10,7 @@ return array(
 <!-- /wp:spacer -->
 
 <!-- wp:image {"align":"center","id":6619,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image aligncenter size-full"><img src="https://demo.wpzoom.com/foodica-patterns/files/2022/03/separator.png" alt="" class="wp-image-6619"/></figure>
+<figure class="wp-block-image aligncenter size-full"><img src="' . $url . 'separator.png" alt="" class="wp-image-6619"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:columns {"style":{"color":{"background":"#ffffff00"}}} -->
@@ -36,7 +34,7 @@ return array(
 <!-- /wp:columns -->
 
 <!-- wp:image {"align":"center","id":6619,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image aligncenter size-full"><img src="https://demo.wpzoom.com/foodica-patterns/files/2022/03/separator.png" alt="" class="wp-image-6619"/></figure>
+<figure class="wp-block-image aligncenter size-full"><img src="' . $url . 'separator.png" alt="" class="wp-image-6619"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:spacer {"height":"50px"} -->

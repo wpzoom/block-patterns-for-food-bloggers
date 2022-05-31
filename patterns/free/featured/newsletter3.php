@@ -1,7 +1,5 @@
 <?php
-/**
- * Default content width (Dark version)
- */
+$url = WPZOOM_FB_PATTERNS_URL . 'patterns/images/';
 
 return array(
     'title'      => esc_html__( 'Newsletter Form', 'block-patterns-for-food-bloggers' ),
@@ -10,7 +8,7 @@ return array(
 <div class="wp-block-group alignfull wpz_pattern_19 has-background" style="background-color:#eff4f7"><!-- wp:columns {"verticalAlignment":"center"} -->
 <div class="wp-block-columns are-vertically-aligned-center"><!-- wp:column {"verticalAlignment":"center","width":"45%"} -->
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:45%"><!-- wp:image {"id":6845,"sizeSlug":"full","linkDestination":"media","className":"is-style-default"} -->
-<figure class="wp-block-image size-full is-style-default"><a href="https://demo.wpzoom.com/foodica-patterns/files/2022/05/unsplash_6MT4_Ut8a3Y.png"><img src="https://demo.wpzoom.com/foodica-patterns/files/2022/05/unsplash_6MT4_Ut8a3Y.png" alt="" class="wp-image-6845"/></a></figure>
+<figure class="wp-block-image size-full is-style-default"><a href="#"><img src="' . $url . 'pexels_6MT4_Ut8a3Y.png" alt="" class="wp-image-6845"/></a></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column -->
 

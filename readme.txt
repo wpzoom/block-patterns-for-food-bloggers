@@ -29,10 +29,20 @@ This section describes how to install the plugin and get it working.
 In the Block editor click on the "+" button at the top-left, select the Patterns tab. You will find a categoru named "WPZOOM Food Blog Patterns" with all patterns included in this plugin.
 
 
+Images Credit:
+https://www.foodiesfeed.com/
+https://www.foodiesfeed.com/free-food-photo/lemon-basil-sponge-cake/
+https://www.foodiesfeed.com/free-food-photo/cheese-appetizer
+https://www.foodiesfeed.com/free-food-photo/fancy-dinner-with-seafood-pasta-and-crayfish/
+https://www.foodiesfeed.com/free-food-photo/vegetable-couscous-with-shrimps-and-fish/
+https://www.foodiesfeed.com/free-food-photo/easter-breakfast-of-fried-quail-eggs-on-bread-with-butter-2/
+https://www.pexels.com/photo/young-woman-rolling-dough-for-baking-in-kitchen-3771106/
+https://www.pexels.com/photo/man-in-white-dress-shirt-holding-silver-bowl-4253312/
+
+
 == Screenshots ==
 
 1. Patterns Library
-
 
 
 == Changelog ==

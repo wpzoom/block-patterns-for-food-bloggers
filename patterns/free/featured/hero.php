@@ -1,7 +1,5 @@
 <?php
-/**
- * Default content width (Dark version)
- */
+$url = WPZOOM_FB_PATTERNS_URL . 'patterns/images/';
 
 return array(
     'title'      => esc_html__( 'Hero #1', 'block-patterns-for-food-bloggers' ),
@@ -38,7 +36,7 @@ return array(
 <!-- wp:columns {"className":"eplus-wrapper"} -->
 <div class="wp-block-columns eplus-wrapper"><!-- wp:column {"verticalAlignment":"center","width":"","className":"eplus-wrapper"} -->
 <div class="wp-block-column is-vertically-aligned-center eplus-wrapper"><!-- wp:image {"align":"center","id":6692,"sizeSlug":"full","linkDestination":"media"} -->
-<figure class="wp-block-image aligncenter size-full"><a href="https://demo.wpzoom.com/foodica-patterns/files/2022/04/chicken.png"><img src="https://demo.wpzoom.com/foodica-patterns/files/2022/04/chicken.png" alt="" class="wp-image-6692"/></a></figure>
+<figure class="wp-block-image aligncenter size-full"><a href="#"><img src="' . $url . 'chicken.png" alt="" class="wp-image-6692"/></a></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"align":"center"} -->
@@ -48,7 +46,7 @@ return array(
 
 <!-- wp:column {"verticalAlignment":"center","width":"","className":"eplus-wrapper"} -->
 <div class="wp-block-column is-vertically-aligned-center eplus-wrapper"><!-- wp:image {"align":"center","id":6694,"sizeSlug":"full","linkDestination":"media"} -->
-<figure class="wp-block-image aligncenter size-full"><a href="https://demo.wpzoom.com/foodica-patterns/files/2022/04/pasta.png"><img src="https://demo.wpzoom.com/foodica-patterns/files/2022/04/pasta.png" alt="" class="wp-image-6694"/></a></figure>
+<figure class="wp-block-image aligncenter size-full"><a href="#"><img src="' . $url . 'pasta.png" alt="" class="wp-image-6694"/></a></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"align":"center"} -->
@@ -58,7 +56,7 @@ return array(
 
 <!-- wp:column {"verticalAlignment":"center","width":"","className":"eplus-wrapper"} -->
 <div class="wp-block-column is-vertically-aligned-center eplus-wrapper"><!-- wp:image {"align":"center","id":6695,"sizeSlug":"full","linkDestination":"media"} -->
-<figure class="wp-block-image aligncenter size-full"><a href="https://demo.wpzoom.com/foodica-patterns/files/2022/04/vegetables.png"><img src="https://demo.wpzoom.com/foodica-patterns/files/2022/04/vegetables.png" alt="" class="wp-image-6695"/></a></figure>
+<figure class="wp-block-image aligncenter size-full"><a href="#"><img src="' . $url . 'vegetables.png" alt="" class="wp-image-6695"/></a></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"align":"center"} -->
@@ -68,7 +66,7 @@ return array(
 
 <!-- wp:column {"verticalAlignment":"center","width":"","className":"eplus-wrapper"} -->
 <div class="wp-block-column is-vertically-aligned-center eplus-wrapper"><!-- wp:image {"align":"center","id":6696,"sizeSlug":"full","linkDestination":"media"} -->
-<figure class="wp-block-image aligncenter size-full"><a href="https://demo.wpzoom.com/foodica-patterns/files/2022/04/fish.png"><img src="https://demo.wpzoom.com/foodica-patterns/files/2022/04/fish.png" alt="" class="wp-image-6696"/></a></figure>
+<figure class="wp-block-image aligncenter size-full"><a href="#"><img src="' . $url . 'fish.png" alt="" class="wp-image-6696"/></a></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"align":"center"} -->
@@ -78,7 +76,7 @@ return array(
 
 <!-- wp:column {"verticalAlignment":"center","width":"","className":"eplus-wrapper"} -->
 <div class="wp-block-column is-vertically-aligned-center eplus-wrapper"><!-- wp:image {"align":"center","id":6697,"sizeSlug":"full","linkDestination":"media"} -->
-<figure class="wp-block-image aligncenter size-full"><a href="https://demo.wpzoom.com/foodica-patterns/files/2022/04/all.png"><img src="https://demo.wpzoom.com/foodica-patterns/files/2022/04/all.png" alt="" class="wp-image-6697"/></a></figure>
+<figure class="wp-block-image aligncenter size-full"><a href="#"><img src="' . $url . 'all.png" alt="" class="wp-image-6697"/></a></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"align":"center"} -->
