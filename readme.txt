@@ -34,8 +34,8 @@ Patterns make it incredibly simple to add complex layouts and designs to any Wor
 * **Book Feature**
 * **About Author**
 * **Instagram Hero**
-* **Featured Category**
-* **Latest Posts (overlay style)**
+* **Featured Categories**
+* **Latest Posts (grid)**
 * **Latest Posts (overlay style)**
 
 == Features ==
