@@ -84,7 +84,8 @@ class WPZOOM_Food_Blog_Patterns {
 
 		add_editor_style( array( WPZOOM_FB_PATTERNS_PATH . 'assets/css/style.css' ) );
 
-		add_filter( 'render_block_core/group', array( $this, 'group_inner' ) );
+		add_filter( 'render_block_core/group', array( $this, 'group_inner' ), 10, 2 );
+		
 		remove_filter( 'admin_head', 'wp_check_widget_editor_deps' );
 
 	}
@@ -192,7 +193,7 @@ class WPZOOM_Food_Blog_Patterns {
 	 * @param   string  $block_content The block content
 	 * @return  string The updated block content
 	 */
-	function group_inner( $block_content ) {
+	function group_inner( $block_content, $block ) {
 		libxml_use_internal_errors( true );
 		$dom = new DOMDocument();
 		$dom->loadHTML(
@@ -203,6 +204,12 @@ class WPZOOM_Food_Blog_Patterns {
 			),
 			LIBXML_HTML_NOIMPLIED | LIBXML_HTML_NODEFDTD
 		);
+
+		if( !isset( $block['attrs']['className'] ) ) {
+			return $block_content;
+		} elseif( !str_contains( $block['attrs']['className'], 'wpz_pattern' ) ) {
+			return $block_content;
+		}
 
 		foreach ( $dom->getElementsByTagName( 'div' ) as $div ) {
 			// check for desired class name
