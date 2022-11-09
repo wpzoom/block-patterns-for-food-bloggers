@@ -4,7 +4,7 @@
  * Plugin URI:        https://www.wpzoom.com/plugins/block-patterns/
  * Description:       A beautiful collection of block patterns for food bloggers
  * Version:           1.0.1
- * Requires at least: 5.7
+ * Requires at least: 6.1
  * Requires PHP:      7.2
  * Author:            WPZOOM
  * Author URI:        https://www.wpzoom.com/
