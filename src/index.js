@@ -188,9 +188,17 @@ subscribe( () => {
 	}
 
 	wp.domReady( () => {
-		const toolbar = document.querySelector(
+		
+		var toolbar = document.querySelector(
 			'.edit-post-header-toolbar__left'
 		);
+
+		// If no toolbar can be found at all, bail.
+		if ( ! toolbar ) {
+			toolbar = document.querySelector(
+				'.editor-document-tools__left'
+			);
+		}
 
 		// If no toolbar can be found at all, bail.
 		if ( ! toolbar ) {
