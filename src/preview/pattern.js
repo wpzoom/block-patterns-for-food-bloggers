@@ -42,6 +42,12 @@ export default function Pattern( props ) {
 			dispatch( 'core/block-editor' ).removeBlock( clientId );
 		}
 
+		// Trigger click event on close button of the modal
+		const closeButton = document.querySelector('.block-patterns-for-food-bloggers-collection__modal .components-modal__header button');
+		if ( closeButton ) {
+			closeButton.click();
+		}
+
 		createSuccessNotice(
 			sprintf(
 				// Translators: Name of the pattern being inserted.
