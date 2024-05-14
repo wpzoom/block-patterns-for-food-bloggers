@@ -112,7 +112,8 @@
 
 .wpz_pattern_16 .wp-block-query .wp-block-group__inner-container {
   position: relative;
-  transition: .2s ease all; }
+  transition: .2s ease all;
+  padding: 0; }
   .wpz_pattern_16 .wp-block-query .wp-block-group__inner-container:hover .wp-block-post-title a {
     text-decoration: underline;
     transition: .2s ease all; }
@@ -164,7 +165,8 @@
 
 .wpz_pattern_17 .wp-block-query .wp-block-group__inner-container {
   position: relative;
-  transition: .2s ease all; }
+  transition: .2s ease all;
+  padding: 0; }
   .wpz_pattern_17 .wp-block-query .wp-block-group__inner-container:hover .wp-block-post-title a {
     text-decoration: underline;
     transition: .2s ease all; }

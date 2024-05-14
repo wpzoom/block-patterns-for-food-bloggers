@@ -4,7 +4,7 @@ Donate link:        http://paypal.me/wpzm/10usd
 Author URI:         https://www.wpzoom.com/
 Requires at least:  6.1
 Tested up to:       6.5
-Stable tag:         1.0.1
+Stable tag:         1.0.2
 Requires PHP:       7.4
 License:            GPLv2 or later
 License URI:        https://www.gnu.org/licenses/gpl-2.0.html
@@ -86,6 +86,9 @@ In the Block editor click on the "+" button at the top-left, select the Patterns
 
 
 == Changelog ==
+
+= 1.0.2 =
+* Minor bug fixex
 
 = 1.0.1 =
 * Fixed an issue with the group block inner container
