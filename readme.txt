@@ -8,7 +8,7 @@ Stable tag:         1.0.2
 Requires PHP:       7.4
 License:            GPLv2 or later
 License URI:        https://www.gnu.org/licenses/gpl-2.0.html
-Tags:               block-patterns, gutenberg, design, layout, food, recipe, block,
+Tags:               block patterns, gutenberg, patterns, layout, food blog
 
 A beautiful collection of block patterns for food bloggers.
 
