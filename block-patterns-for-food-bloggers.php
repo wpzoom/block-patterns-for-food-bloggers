@@ -196,12 +196,12 @@ class WPZOOM_Food_Blog_Patterns {
 	function group_inner( $block_content, $block ) {
 		libxml_use_internal_errors( true );
 		$dom = new DOMDocument();
+		
+		// Use htmlspecialchars instead of mb_convert_encoding for HTML entities
+		$encoded_content = '<html>' . htmlspecialchars( $block_content, ENT_QUOTES | ENT_HTML5, 'UTF-8' ) . '</html>';
+		
 		$dom->loadHTML(
-			mb_convert_encoding(
-				'<html>' . $block_content . '</html>',
-				'HTML-ENTITIES',
-				'UTF-8'
-			),
+			$encoded_content,
 			LIBXML_HTML_NOIMPLIED | LIBXML_HTML_NODEFDTD
 		);
 
