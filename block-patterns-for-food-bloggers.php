@@ -264,10 +264,10 @@ class WPZOOM_Food_Blog_Patterns {
 		$asset_path = WPZOOM_FB_PATTERNS_ABSPATH . $filepath . '.asset.php';
 
 		return file_exists( $asset_path )
-			? require_once $asset_path
+			? require $asset_path
 			: array(
 				'dependencies' => array(),
-				'version'      => WPZOOM_FB_PATTERNS_ABSPATH,
+				'version'      => WPZOOM_FB_PATTERNS_VER,
 			);
 	}
 
