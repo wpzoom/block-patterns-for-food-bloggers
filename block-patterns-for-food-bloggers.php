@@ -3,7 +3,7 @@
  * Plugin Name:       Block Patterns for Food Bloggers
  * Plugin URI:        https://www.wpzoom.com/plugins/block-patterns/
  * Description:       A beautiful collection of block patterns for food bloggers
- * Version:           1.0.5
+ * Version:           1.0.6
  * Requires at least: 6.1
  * Requires PHP:      7.4
  * Author:            WPZOOM
