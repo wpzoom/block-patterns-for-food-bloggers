@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Block Patterns for Food Bloggers\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-25 13:19+0000\n"
+"POT-Creation-Date: 2025-12-13 12:31+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -20,7 +20,7 @@ msgstr ""
 msgid "A beautiful collection of block patterns for food bloggers"
 msgstr ""
 
-#: patterns/free/featured/about.php:7
+#: patterns/free/featured/about.php:6
 msgid "About Me"
 msgstr ""
 
@@ -28,32 +28,32 @@ msgstr ""
 msgid "Block Patterns for Food Bloggers"
 msgstr ""
 
-#: patterns/free/featured/book.php:7
+#: patterns/free/featured/book.php:5
 msgid "Book"
 msgstr ""
 
-#: patterns/free/featured/cover.php:7
+#: patterns/free/featured/cover.php:5
 msgid "Cover #1"
 msgstr ""
 
-#: patterns/free/featured/featured-categories2.php:7
-#: patterns/free/featured/featured-categories.php:7
+#: patterns/free/featured/featured-categories2.php:5
+#: patterns/free/featured/featured-categories.php:6
 msgid "Featured Categories"
 msgstr ""
 
-#: patterns/free/featured/navigate.php:7
+#: patterns/free/featured/navigate.php:5
 msgid "Getting Started"
 msgstr ""
 
-#: patterns/free/featured/hero.php:7
+#: patterns/free/featured/hero.php:5
 msgid "Hero #1"
 msgstr ""
 
-#: patterns/free/featured/hero2.php:7
+#: patterns/free/featured/hero2.php:6
 msgid "Hero #2"
 msgstr ""
 
-#: patterns/free/featured/hero3.php:7
+#: patterns/free/featured/hero3.php:5
 msgid "Hero #3"
 msgstr ""
 
@@ -65,14 +65,18 @@ msgstr ""
 msgid "https://www.wpzoom.com/plugins/block-patterns/"
 msgstr ""
 
-#: patterns/free/featured/instagram.php:7
+#: patterns/free/featured/instagram.php:5
 msgid "Instagram CTA"
 msgstr ""
 
-#: patterns/free/featured/newsletter.php:7
-#: patterns/free/featured/newsletter3.php:7
+#: patterns/free/featured/newsletter.php:5
+#: patterns/free/featured/newsletter3.php:5
 #: patterns/free/featured/newsletter2.php:7
 msgid "Newsletter Form"
+msgstr ""
+
+#: block-patterns-for-food-bloggers.php:120
+msgid "Overlay"
 msgstr ""
 
 #: patterns/free/featured/loop.php:7
